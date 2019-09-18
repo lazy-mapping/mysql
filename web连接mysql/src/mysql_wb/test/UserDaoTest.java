@@ -7,7 +7,7 @@ import mysql_web.dao.UserDao;
 import mysql_web.domain.User;
 
 /**
- * UserDao的测试类,记得删除表t_user中 李四 的记录
+ * UserDao的测试类,记得删除表t_user中 李四 的记录；
  *
  */
 public class UserDaoTest {
