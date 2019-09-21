@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+					http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+id="WebApp_ID" version="4.0">
+  <display-name>客户表</display-name>
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>web.servlet.CustomerServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>add.jsp</welcome-file>
+    <welcome-file>edit.jsp</welcome-file>
+    <welcome-file>frame.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>list.jsp</welcome-file>
+    <welcome-file>msg.jsp</welcome-file>
+    <welcome-file>query.jsp</welcome-file>
+    <welcome-file>top.jsp</welcome-file>
+    <welcome-file>welcome.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
